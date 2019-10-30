@@ -1,2 +1,2 @@
-# pizzaria-website
-Website para pizzaria e esfiharia Casa Das Esfihas
+# Pizza restaurant website
+Website for pizza restaurant Casa Das Esfihas.
