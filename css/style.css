@@ -1,14 +1,19 @@
-body h1, h2, h3, p, ul {
+body h1,
+h2,
+h3,
+p,
+ul {
   padding: 0px;
   margin: 0px;
 }
 
-* {box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 body {
-    background-color: #dddddd;
-    margin: 0;
-    font-family: 'Annie Use Your Telescope', cursive;
+  background-color: #dddddd;
+  margin: 0;
+  font-family: "Annie Use Your Telescope", cursive;
 }
 
 img {
@@ -16,11 +21,11 @@ img {
   display: block;
 }
 
-li{
+li {
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -35,20 +40,18 @@ a{
   background: #250f04;
 }
 
-
 /*header*/
 .main {
-  background:url("../img/esfiha5.jpg") no-repeat center;
+  background: url("../img/esfiha5.jpg") no-repeat center;
   background-size: cover;
   text-align: center;
-  color:  #ffffff;
+  color: #ffffff;
   font-size: 25px;
   font-weight: 1000;
   padding: 250px 0;
   font-style: italic;
   text-shadow: 2px 2px 5px #000000;
 }
-
 
 .main h1 {
   font-size: 30px;
@@ -61,19 +64,15 @@ a{
 
 .main i {
   font-size: 40px;
-  padding: 10px
+  padding: 10px;
 }
-
 
 .main p {
   padding: 5px;
-  font-size: 40px
+  font-size: 40px;
 }
 
-
-
 /*menu - top*/
-
 
 .menu {
   background-color: white;
@@ -82,48 +81,44 @@ a{
   padding: 5px 0;
 }
 
-
 .menu-logo img {
   max-width: 200px;
   float: left;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
-.menu-nav{
-   float: right;
-   margin-right: 30px;
-   margin-top: 8px;
+.menu-nav {
+  float: right;
+  margin-right: 30px;
+  margin-top: 8px;
 }
 
-.menu-nav ul{
+.menu-nav ul {
   display: flex;
 }
 
-.menu-nav li{
-   list-style: none;
+.menu-nav li {
+  list-style: none;
 }
 
-.menu-nav a{
-   display: block;
-   padding: 10px 5px;
-   margin-left: 10px;
-   color: #331005;
-   font-size: 18px;
+.menu-nav a {
+  display: block;
+  padding: 10px 5px;
+  margin-left: 10px;
+  color: #331005;
+  font-size: 18px;
 }
-
 
 .menu-nav a:hover {
   background: #f3f3f3ec;
-  border-radius: 20px
+  border-radius: 20px;
 }
 
-@media(max-width: 739px){
-
+@media (max-width: 739px) {
   .menu .container {
-      max-width: 100%;
-      margin: 0 auto
+    max-width: 100%;
+    margin: 0 auto;
   }
-
 
   .menu-toggle {
     display: block;
@@ -134,21 +129,21 @@ a{
     cursor: pointer;
     text-align: center;
     font-size: 30px;
-    color: #160901
+    color: #160901;
   }
 
-  .menu-toggle:before{
-    content: '\f0c9';
+  .menu-toggle:before {
+    content: "\f0c9";
     font-family: fontAwesome;
-    line-height: 40px
+    line-height: 40px;
   }
 
-  .menu-toggle.active:before{
-    content: '\f00d';
+  .menu-toggle.active:before {
+    content: "\f00d";
   }
 
   .menu-nav {
-    display: none
+    display: none;
   }
 
   .contato {
@@ -162,7 +157,7 @@ a{
     display: block;
   }
 
-  .menu-nav.active ul{
+  .menu-nav.active ul {
     display: block;
     margin: 0;
   }
@@ -172,23 +167,21 @@ a{
   }
 
   .menu-nav.active {
-    display: block  
+    display: block;
   }
 }
 
 /*contato*/
 
-
 .contato {
   margin-top: 10px;
   float: right;
-  color: #160901
+  color: #160901;
 }
-
 
 .contato .fab {
   font-size: 30px;
-  padding: 5px
+  padding: 5px;
 }
 
 .tel {
@@ -200,25 +193,23 @@ a{
 
 /*cardapio*/
 
-.cardapio {  
+.cardapio {
   background: #160701;
   text-align: center;
   padding: 100px 0;
 }
 
 .cardapio img {
-  margin: 0 auto
+  margin: 0 auto;
 }
-
 
 .cardapio-titulo {
   font-size: 30px;
   text-align: center;
   margin-bottom: 50px;
-  color:#ffff00;
-  font-weight: bold
+  color: #ffff00;
+  font-weight: bold;
 }
-
 
 .cardapio h3 {
   color: #ffffffc0;
@@ -226,9 +217,8 @@ a{
 }
 
 .cardapio h2 {
-  color:  #ffd000
+  color: #ffd000;
 }
-
 
 .buttom-cardapio {
   background: #ff0000;
@@ -241,24 +231,23 @@ a{
   display: block;
   cursor: pointer;
   border-radius: 50px;
-  margin: 22px auto 0 auto
+  margin: 22px auto 0 auto;
 }
 
 /*sobre nos*/
 
 .sobreNos {
-  background:url("../img/fundo.jpg") no-repeat center;
+  background: url("../img/fundo.jpg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
-  color:  white;
-  font-size: 1.125em;
+  color: #cccccc;
+  font-size: 1.5em;
   font-style: italic;
-  padding: 100px 0;
+  padding: 180px 0;
+
   text-shadow: 2px 2px 5px black;
 }
-
-
 
 .sobreNos h1 {
   font-size: 30px;
@@ -271,14 +260,14 @@ a{
 
 .sobreNos h2 {
   color: #ffff00;
-  text-decoration-line: underline 
+  text-decoration-line: underline;
 }
 
 .sobreNos p {
   padding: 20px;
 }
 
-@media (max-width: 850px){
+@media (max-width: 850px) {
   .sobreNos img {
     max-width: 400px;
     height: 300px;
@@ -286,12 +275,11 @@ a{
   }
 }
 
-
 /*Localização*/
 
 .localizacao {
   background: #f9f9f9;
-  color:  #160901;
+  color: #160901;
   text-align: center;
   padding: 100px 0;
 }
@@ -303,15 +291,14 @@ a{
 .localizacao iframe {
   max-width: 100%;
   display: block;
-    margin: 0 auto
+  margin: 0 auto;
 }
 
 .localizacao-titulo {
   font-size: 30px;
   margin-bottom: 50px;
-  color:  #160901;
+  color: #160901;
 }
-
 
 /*inscreva-se
 
@@ -356,8 +343,6 @@ a{
 }
 */
 
-
-
 /*footer*/
 
 .footer {
@@ -367,20 +352,19 @@ a{
   padding: 30px;
 }
 
-.footer a{
+.footer a {
   text-decoration: none;
   color: white;
 }
 
-
 .footer h1 {
   font-size: 20px;
-  padding: 10px
+  padding: 10px;
 }
 
-.footer p { 
+.footer p {
   font-size: 1.124em;
-  margin: 5px  
+  margin: 5px;
 }
 
 .footer i {
@@ -389,7 +373,7 @@ a{
 }
 
 .footer .redes-sociais {
-  color: black
+  color: black;
 }
 
 /*
@@ -442,9 +426,8 @@ a{
   padding: 20px;
 }
 
-@media (max-width: 739px){
+@media (max-width: 739px) {
   .footer {
-    text-align: center
+    text-align: center;
   }
 }
-
